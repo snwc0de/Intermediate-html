@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="test.css">
 </head>
 <body>
+    <!-- TABLE HEADER, BODY AND FOOTER -->
     <table>
         <caption>
             SCHOOL TIMETABLE
@@ -71,7 +72,8 @@
         </tr>
       </table>
 
-      <table>
+    <!-- SCOPES -->
+    <table>
         <caption>HOW I CHOSE TO SPEND MY MONEY</caption>
           <thead>
             <tr>
@@ -120,6 +122,34 @@
               <td>5</td>
             </tr>
           </tbody>
+    </table>
+
+    <!-- ID AND HEADERS -->
+    <table>
+      <thead>
+        <tr>
+          <td colspan="2" rowspan="2">&nbsp;</td>
+          <th id="clothes" colspan="3">Clothes</th>
+
+        </tr>
+
+        <tr>
+          <th id="trousers" headers="clothes">Trousers</th>
+          <th id="skirts" headers="clothes">Skirts</th>
+          <th id="dresses" headers="clothes">Dresses</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th id="belgium" rowspan="2">Belgium</th>
+          <th id="antwerp" headers="belgium">Antwerp</th>
+          <td headers="antwerp belgium clothes trousers">56</td>
+          <td headers="antwerp belgium clothes skirts">22</td>
+          <td headers="antwerp belgium clothes dresses">43</td>
+        </tr>
+      </tbody>
+      
     </table>
 </body>
 </html>
